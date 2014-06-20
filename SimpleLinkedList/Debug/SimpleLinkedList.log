@@ -1,0 +1,21 @@
+﻿Build started 3/14/2014 2:29:27 PM.
+     1>Project "C:\ChaoLi\workstation\C_workspace\Test\SimpleLinkedList\SimpleLinkedList.vcxproj" on node 5 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\SimpleLinkedList.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt main.c
+         main.c
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\ChaoLi\workstation\C_workspace\Test\Debug\SimpleLinkedList.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\SimpleLinkedList.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\ChaoLi\workstation\C_workspace\Test\Debug\SimpleLinkedList.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\ChaoLi\workstation\C_workspace\Test\Debug\SimpleLinkedList.lib" /MACHINE:X86 Debug\main.obj
+         LINK : C:\ChaoLi\workstation\C_workspace\Test\Debug\SimpleLinkedList.exe not found or not built by the last incremental link; performing full link
+         SimpleLinkedList.vcxproj -> C:\ChaoLi\workstation\C_workspace\Test\Debug\SimpleLinkedList.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\ChaoLi\workstation\C_workspace\Test\Debug\SimpleLinkedList.exe;#1" /manifest Debug\SimpleLinkedList.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\SimpleLinkedList.unsuccessfulbuild".
+         Touching "Debug\SimpleLinkedList.lastbuildstate".
+     1>Done Building Project "C:\ChaoLi\workstation\C_workspace\Test\SimpleLinkedList\SimpleLinkedList.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.54

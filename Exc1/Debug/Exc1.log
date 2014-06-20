@@ -1,0 +1,26 @@
+﻿Build started 4/10/2014 7:43:21 AM.
+     1>Project "C:\ChaoLi\workstation\C_workspace\Test\Exc1\Exc1.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Exc1.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.c
+         main.c
+     1>c:\chaoli\workstation\c_workspace\test\exc1\intarray.h(35): warning C4520: 'IntArray' : multiple default constructors specified
+     1>c:\chaoli\workstation\c_workspace\test\exc1\main.c(16): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\chaoli\workstation\c_workspace\test\exc1\main.c(27): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\conio.h(128) : see declaration of 'getch'
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\ChaoLi\workstation\C_workspace\Test\Debug\Exc1.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Exc1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\ChaoLi\workstation\C_workspace\Test\Debug\Exc1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\ChaoLi\workstation\C_workspace\Test\Debug\Exc1.lib" /MACHINE:X86 Debug\IntArray.obj
+         Debug\main.obj
+         LINK : C:\ChaoLi\workstation\C_workspace\Test\Debug\Exc1.exe not found or not built by the last incremental link; performing full link
+         Exc1.vcxproj -> C:\ChaoLi\workstation\C_workspace\Test\Debug\Exc1.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\ChaoLi\workstation\C_workspace\Test\Debug\Exc1.exe;#1" /manifest Debug\Exc1.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\Exc1.unsuccessfulbuild".
+         Touching "Debug\Exc1.lastbuildstate".
+     1>Done Building Project "C:\ChaoLi\workstation\C_workspace\Test\Exc1\Exc1.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.83

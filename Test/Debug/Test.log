@@ -1,0 +1,23 @@
+﻿Build started 3/13/2014 1:36:13 PM.
+     1>Project "C:\ChaoLi\workstation\C_workspace\Test\Test\Test.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Selection_Sort.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /D _MBCS /D TEST /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt bubble_sort.c
+         bubble_sort.c
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\ChaoLi\workstation\C_workspace\Test\Debug\Selection_Sort.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Selection_Sort.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\ChaoLi\workstation\C_workspace\Test\Debug\Selection_Sort.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\ChaoLi\workstation\C_workspace\Test\Debug\Selection_Sort.lib" /MACHINE:X86 Debug\bubble_sort.obj
+         Debug\bubble_sort.obj
+         Debug\main.obj
+     1>Debug\bubble_sort.obj : warning LNK4042: object specified more than once; extras ignored
+         Test.vcxproj -> C:\ChaoLi\workstation\C_workspace\Test\Debug\Selection_Sort.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\ChaoLi\workstation\C_workspace\Test\Debug\Selection_Sort.exe;#1" /manifest Debug\Selection_Sort.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\Selection_Sort.unsuccessfulbuild".
+         Touching "Debug\Selection_Sort.lastbuildstate".
+     1>Done Building Project "C:\ChaoLi\workstation\C_workspace\Test\Test\Test.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.55

@@ -1,0 +1,19 @@
+﻿Build started 3/14/2014 2:29:24 PM.
+     1>Project "C:\ChaoLi\workstation\C_workspace\Test\Quick_Sort\Quick_Sort.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Quick_Sort.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\ChaoLi\workstation\C_workspace\Test\Debug\Quick_Sort.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Quick_Sort.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\ChaoLi\workstation\C_workspace\Test\Debug\Quick_Sort.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\ChaoLi\workstation\C_workspace\Test\Debug\Quick_Sort.lib" /MACHINE:X86 Debug\main.obj
+         Quick_Sort.vcxproj -> C:\ChaoLi\workstation\C_workspace\Test\Debug\Quick_Sort.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\ChaoLi\workstation\C_workspace\Test\Debug\Quick_Sort.exe;#1" /manifest Debug\Quick_Sort.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\Quick_Sort.unsuccessfulbuild".
+         Touching "Debug\Quick_Sort.lastbuildstate".
+     1>Done Building Project "C:\ChaoLi\workstation\C_workspace\Test\Quick_Sort\Quick_Sort.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.37

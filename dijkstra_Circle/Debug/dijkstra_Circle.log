@@ -1,0 +1,31 @@
+﻿Build started 3/25/2014 11:14:07 AM.
+     1>Project "C:\ChaoLi\workstation\C_workspace\Test\dijkstra_Circle\dijkstra_Circle.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\dijkstra_Circle.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt main.c
+         main.c
+     1>c:\chaoli\workstation\c_workspace\test\dijkstra_circle\main.c(57): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(304) : see declaration of 'scanf'
+     1>c:\chaoli\workstation\c_workspace\test\dijkstra_circle\main.c(70): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\conio.h(128) : see declaration of 'getch'
+     1>c:\chaoli\workstation\c_workspace\test\dijkstra_circle\main.c(119): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(304) : see declaration of 'scanf'
+     1>c:\chaoli\workstation\c_workspace\test\dijkstra_circle\main.c(126): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(304) : see declaration of 'scanf'
+     1>c:\chaoli\workstation\c_workspace\test\dijkstra_circle\main.c(147): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(304) : see declaration of 'scanf'
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\ChaoLi\workstation\C_workspace\Test\Debug\dijkstra_Circle.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\dijkstra_Circle.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\ChaoLi\workstation\C_workspace\Test\Debug\dijkstra_Circle.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\ChaoLi\workstation\C_workspace\Test\Debug\dijkstra_Circle.lib" /MACHINE:X86 Debug\main.obj
+         LINK : C:\ChaoLi\workstation\C_workspace\Test\Debug\dijkstra_Circle.exe not found or not built by the last incremental link; performing full link
+         dijkstra_Circle.vcxproj -> C:\ChaoLi\workstation\C_workspace\Test\Debug\dijkstra_Circle.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\ChaoLi\workstation\C_workspace\Test\Debug\dijkstra_Circle.exe;#1" /manifest Debug\dijkstra_Circle.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\dijkstra_Circle.unsuccessfulbuild".
+         Touching "Debug\dijkstra_Circle.lastbuildstate".
+     1>Done Building Project "C:\ChaoLi\workstation\C_workspace\Test\dijkstra_Circle\dijkstra_Circle.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.57
